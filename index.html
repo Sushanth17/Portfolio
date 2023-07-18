@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link href="images/favicon.ico" rel="icon">
+        <link href="css.css" rel="stylesheet" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/0824a6030d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div id="head">
+                <center>
+                    <span id="text_menu">Menu</span><br>    
+                    <a href="#About Me" >About Me</a>
+                    <a href="#Skills_and_Hobbies" >Skills & Hobbies</a>
+                    <a href="#my_websites">My Websites</a>
+                    <a href="#Contact">Contact</a>
+                    <a href="javascript:void"><i class="fa-solid fa-moon moon"></i></a>
+                    
+                    
+                </center> 
+            </div>
+        </header>
+
+        <div id="about_me">
+            <section id="About Me">
+                <h2 id="text_about_me">ABOUT ME</h2>
+                <center>
+                <img id="My_img" src="pic.jpg"  alt="my_image">
+                <h1 id="My_name">B.SUSHANTH BABU</h1>
+                </center>
+                <p id="My_intro_para">
+                    As a fresh graduate from Karunya Institute of Technology and Sciences,
+                     I recently completed an internship at LTI Mindtree, gaining valuable
+                      industry experience. Passionate about programming, I enjoy problem-solving
+                       and creating elegant solutions. Excited to apply my skills and drive innovation
+                       , I'm ready to contribute to impactful projects in the technology field 
+                </p>
+                <br>
+                <center>
+                    <a href="https://www.instagram.com/pb_7945/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                    <a href="https://www.linkedin.com/in/p-harish-652781225/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.hackerrank.com/pbharish026" target="_blank" ><i class="fab fa-hackerrank"></i></a>
+                    <a href="https://github.com/pinnepalliharish" target="_blank" ><i class="fab fa-github-square"></i></a>
+              </center>
+            </section>
+        </div>
+
+        <div id="skills">
+            <section id="Skills_and_Hobbies">
+                <br>
+                <center>
+                    <h2 id="text_skills">SKILLS :</h2>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3"></i>
+                    <i class="fa-solid fa-c"></i>
+                    <i class="fa-brands fa-java"></i> 
+                    <i class="fa-solid fa-database"></i> 
+                 </center>
+                <br>
+                <hr id="Skills_hr_line">
+                <br>
+                <center>
+                    <h2 id="text_hobbies">HOBBIES</h2>
+                    <i class="fas fa-music"></i>
+                    <img src="playing_cricket.jpg"  id="Cricket_img" alt="playing_cricket">                   
+                    <i class="fas fa-laptop-code"></i>
+                </center> 
+            </section>
+        </div>
+
+        <br>
+        <div id="copyryt_and_gototop">   
+            <center>
+                <br>
+                <h2 id="copyryt_and_name">&copy; B.SUSHANTH BABU</h2>
+                <a href="#text_menu" id="gototop"> Go To Top</a>
+                <br>
+            </center>
+        </div>
+
+
+        <script>
+
+            document.querySelector(".moon").addEventListener("click",function(){
+
+                document.querySelector("body").classList.toggle("darkMode");
+                document.querySelector(".fa-solid fa-moon moon").classList.add("fa-solid fa-sun-bright")
+            })
+
+        </script>
+
+    </body>
+
+    
+</html>
